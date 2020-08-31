@@ -8,6 +8,7 @@ body{
     width: 100%;
 
 }
+/* ******************************NAVIGATION BAR****************************************/
 .navbar .navbar-brand{
     color: #000000;
     list-style: none;
@@ -20,12 +21,15 @@ body{
     list-style: none;
     text-decoration: none;
 }
-.pricing{
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #000000;
+}
+.contact{
     margin-left: 500px;
     list-style: none;
     text-decoration: none;
 }
-
 
 .signup{
     border-radius: 15px;
@@ -37,7 +41,7 @@ body{
     margin-left: 10px;
 }
 
-/* **********************************************************************/
+/* ******************************HERO****************************************/
 .hero{
     margin: 50px 0px;
 }
@@ -63,7 +67,8 @@ body{
 .col .second-column img{
     width: 350px;
 }
-/* **********************************************************************/
+
+/* *********************SHORTEN YOUR URL*************************************************/
 .input{
     background: url(./images/bg-shorten-desktop.svg);
     background-color: rgb(177, 107, 241);
@@ -89,7 +94,7 @@ body{
     font-weight: bold;
 }
 
-/* **********************************************************************/
+/* **************************CARD SECTION********************************************/
 .card-section{
     margin: 100px;
     text-align: center;
@@ -163,11 +168,43 @@ body{
 
 /*Small devices (landscape phones, less than 768px)*/
 @media only screen and (max-width: 767.98px) { 
-    body{
+    .container-fluid{
         width: 100%;
     }
-    .container-fluid{
-        width: 700px;
+    .contact{
+        margin-left: 0px;
+    }
+    .signup{
+        margin-left: 0px;
+        width: 100px;
+    }
+    .second-column img{
+        width: 350px;
+        height: 350px;
     }
     
+    
+}
+@media only screen and (max-width: 992.98px) { 
+    .contact{
+        margin-left: 0px;
+        }
+    .signup{
+        margin-left: 0px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+    .contact{
+        margin-left: 0px;
+        }
+    .signup{
+        margin-left: 0px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1200px) { 
+    .contact{
+            margin-left: 0px;
+        }
 }
